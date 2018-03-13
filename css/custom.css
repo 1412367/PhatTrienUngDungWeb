@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "Designosaur Regular";
+    src: url("./font/Designosaur-Regular.ttf");
+}
+html  * {
+    font-family: "Designosaur Regular";
+}
+wrapper {
+    display: block;
+    margin: auto;
+    width: 960px;
+}
+
+#headder {
+    margin-top: 10px;
+    padding: 15px 20px 25px 20px;
+    border-top: solid 1px #dddddd;
+}
+.container {
+    background: #ffffff;
+    border-left: solid 1px #dddddd;
+    border-right: solid 1px #dddddd;
+    border-bottom: solid 1px #dddddd;
+}
+
+.textlogo {
+    font-size: 25px;
+    float: left;
+    padding-left: 7px;
+    color: #cd2027;
+}
+.slogan {
+    font-family: "Arial Regular";
+    font-size: 12px;
+    float: left;
+    padding-top: 12px;
+    padding-left: 26px;
+    color: #bebebe;
+}
+#callnow {
+    font-size: 16px;
+    padding-top: 10px;
+    float: right;
+    color: #cd2027;
+}
+
+#slider {
+    padding: 40px 40px 20px 40px;
+}
+#services {
+    padding: 60px 40px 40px 33px;
+}
+#feature {
+    padding: 50px 40px 45px 43px;
+}
+#screenshoot {
+    padding: 40px 40px 45px 43px;
+}
+#testimonial {
+    padding: 40px 40px 35px 43px;
+}
+#prefooter {
+    padding: 25px 20px 20px 20px;
+    background: url("../media/prefooter.png");
+}
+#footer {
+    padding: 20px;
+    background: url("../media/footer.png");
+}
+
+h1 {
+    font-size: 32px;
+    padding-top: 5px;
+    color: #3c3c3c;
+}
+h2 {
+    font-size: 16px;
+    color: #3c3c3c;
+}
+#prefooter h2 {
+    color: #cecece;
+    padding-bottom: 12px;
+}
+
+p, i {
+    font-family: "Arial Regular";
+    font-size: 12px;
+    color: #8c8c8c;
+}
+
+#services .col-sm-3 {
+    padding-left: 10px;
+    padding-right: 22px;
+}
+#screenshoot .col-sm-3 {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+#screenshoot .overlay {
+    opacity: 0;
+    position: absolute;
+    top: 4px;
+    left: 10px;
+}
+#screenshoot .image:hover .overlay {
+    opacity: 1;
+}
